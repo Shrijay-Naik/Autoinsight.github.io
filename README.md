@@ -63,23 +63,23 @@
         <div class="executive">
             <img src="https://via.placeholder.com/100" alt="CEO Image">
             <div>
-                <h3>CEO: John Doe</h3>
-                <p>Email: <a href="mailto:ceo@autoinsight.com">ceo@autoinsight.com</a></p>
-                <p>Phone: 123-456-7890</p>
+                <h3>CEO: Shrijay Naik</h3>
+                <p>Email: <a href="mailto:naikshrijay719@gmail.com.com">ceo@autoinsight.com</a></p>
+                <p>Phone: +91 7620385689</p>
             </div>
         </div>
 
         <div class="executive">
             <img src="https://via.placeholder.com/100" alt="CFO Image">
             <div>
-                <h3>CFO: Jane Smith</h3>
+                <h3>CFO: Potli Cheritha </h3>
             </div>
         </div>
 
         <div class="executive">
             <img src="https://via.placeholder.com/100" alt="CTO Image">
             <div>
-                <h3>CTO: Alice Johnson</h3>
+                <h3>CTO: Mothukuri Anwika</h3>
             </div>
         </div>
     </section>
