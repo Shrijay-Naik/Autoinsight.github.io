@@ -53,8 +53,8 @@
         <!-- Car Repair and Development Photos -->
         <h2>Car Repair and Development</h2>
         <div class="images">
-            <img src="https://via.placeholder.com/500x300.png?text=Car+Repair+Photo+1" alt="Car Repair Photo 1">
-            <img src="https://via.placeholder.com/500x300.png?text=Car+Repair+Photo+2" alt="Car Repair Photo 2">
+            <img src="https:https://www.google.com/url?sa=i&url=https%3A%2F%2Fcaura.com%2Fblog%2Fdifference-between-car-service-and-car-maintenance&psig=AOvVaw0CtUxNM6Vs78UMb6vXXBpM&ust=1730136414593000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKCkureKr4kDFQAAAAAdAAAAABAE" alt="Car Repair Photo 1">
+            <img src="https:[//via.placeholder.com/500x300.png?text=Car+Repair+Photo+2](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wired.com%2Fstory%2Fright-to-repair-cars-hackers%2F&psig=AOvVaw0CtUxNM6Vs78UMb6vXXBpM&ust=1730136414593000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKCkureKr4kDFQAAAAAdAAAAABAJ)" alt="Car Repair Photo 2">
         </div>
 
         <!-- Executive Team Section -->
