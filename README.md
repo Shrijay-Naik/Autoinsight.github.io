@@ -4,35 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AutoInsight - Car Repair Services</title>
-    <style>
-        /* Basic Styling */
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f9f9f9; color: #333; }
-        .header { background-color: #005f73; color: #fff; padding: 1em; text-align: center; }
-        .container { padding: 2em; max-width: 1200px; margin: auto; }
-        
-        /* Logo Styling */
-        .logo { max-width: 150px; margin-bottom: 10px; }
-        
-        /* Service and Customization Cards */
-        .card { border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); margin-bottom: 1em; padding: 1.5em; background-color: #fff; }
-        .service-title { color: #005f73; }
-        button { background-color: #0a9396; color: white; border: none; padding: 0.5em 1em; border-radius: 5px; cursor: pointer; }
-        button:hover { background-color: #007f8c; }
-        
-        /* Customization Section */
-        .customization { margin: 0.5em 0; }
-        
-        /* Image Gallery */
-        .images img { width: 100%; height: auto; margin-top: 10px; border-radius: 8px; }
-        
-        /* Executive Team Section */
-        .executive { display: flex; align-items: center; gap: 20px; margin-top: 1em; }
-        .executive img { width: 100px; border-radius: 50%; border: 3px solid #ddd; }
-        .executive h3 { margin: 0; color: #005f73; }
-        
-        /* Footer */
-        .footer { background-color: #005f73; color: #fff; padding: 1em; text-align: center; }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header class="header">
@@ -116,38 +88,6 @@
         <p>&copy; 2024 AutoInsight. All Rights Reserved.</p>
     </footer>
 
-    <script>
-        // JavaScript Functions
-
-        let selectedService = null;
-        let totalCost = 0;
-        const customizations = [];
-
-        // Function to select a service
-        function selectService(serviceName, price) {
-            selectedService = { serviceName, price };
-            calculateTotal();
-            alert(serviceName + " selected for ₹" + price);
-        }
-
-        // Function to toggle customizations
-        function toggleCustomization(name, price) {
-            const index = customizations.findIndex(cust => cust.name === name);
-            if (index > -1) {
-                customizations.splice(index, 1);
-            } else {
-                customizations.push({ name, price });
-            }
-            calculateTotal();
-        }
-
-        // Function to calculate total cost
-        function calculateTotal() {
-            totalCost = selectedService ? selectedService.price : 0;
-            customizations.forEach(custom => totalCost += custom.price);
-            document.getElementById('totalCost').innerText = totalCost;
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
-
